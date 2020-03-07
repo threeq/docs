@@ -163,7 +163,7 @@ func New(options ...Option) *swagger.API {
 	b := &Builder{
 		API: &swagger.API{
 			BasePath: "/",
-			DocPath: "/swagger",
+			DocPath: "/swagger.json",
 			Swagger:  "2.0",
 			Schemes:  []string{"http"},
 			Info: swagger.Info{

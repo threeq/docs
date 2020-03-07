@@ -222,7 +222,7 @@ type API struct {
 	Host                string                    `json:"host"`
 	SecurityDefinitions map[string]SecurityScheme `json:"securityDefinitions,omitempty"`
 	Security            *SecurityRequirement      `json:"security,omitempty"`
-	DocPath             string
+	DocPath             string                    `json:"-"`
 }
 
 func (a *API) clone() *API {
