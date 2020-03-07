@@ -1,11 +1,11 @@
 package endpoint
 
 import (
+	"github.com/threeq/docs/swagger"
 	"net/http"
 	"reflect"
 	"strconv"
 	"strings"
-	"docs/swagger"
 )
 
 // Builder uses the builder pattern to generate swagger endpoint definitions

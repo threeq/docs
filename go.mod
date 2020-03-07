@@ -1,4 +1,4 @@
-module docs
+module github.com/threeq/docs
 
 go 1.14
 

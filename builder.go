@@ -1,6 +1,6 @@
 package docs
 
-import "docs/swagger"
+import "github.com/threeq/docs/swagger"
 
 // Builder uses the builder pattern to generate a swagger definition
 type Builder struct {

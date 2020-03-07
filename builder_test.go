@@ -1,7 +1,7 @@
 package docs
 
 import (
-	"docs/swagger"
+	"github.com/threeq/docs/swagger"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
